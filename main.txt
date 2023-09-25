@@ -1,21 +1,23 @@
 {
-	 "cpprijon": {
-	 	"prefix": "cpp code",
-	 	"body": [
-			"/**",
-			"  Author: Shahariar Rijon",
-			"  Date: ${CURRENT_DATE}/$CURRENT_MONTH/$CURRENT_YEAR",
-			"**/\n",
-			"#include <bits/stdc++.h>",
-			"using namespace std;\n",
-			
-			"int main()",
-			"{",
-			"\t$1",
-			"\treturn 0;",
-			"}"
-		
-	 	],
-	 	"description": "Log output to console"
-	 }
+	"cpprijon": {
+		"prefix": "cpp code",
+		"body": [
+		   "/**",
+		   "  Author: Shahariar Rijon",
+		   "  Date: ${CURRENT_DATE}/$CURRENT_MONTH/$CURRENT_YEAR",
+		   "**/\n",
+		   "#include <bits/stdc++.h>",
+		   "using namespace std;",
+		   "#define frstio ios_base:: sync_with_stdio(0);cin.tie(0);cout.tie(0);",
+		   "#define ll long long\n",
+		   
+		   "int main()",
+		   "{",
+		   "\t$1",
+		   "\treturn 0;",
+		   "}"
+	   
+		],
+		"description": "Log output to console"
+	}
 }
